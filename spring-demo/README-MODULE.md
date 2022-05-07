@@ -44,7 +44,7 @@ spring发展里程：1.spring-core+spring-data(MVC)-->2.spring boot(微服务)--
 | spring-aspects  | 集成AspectJ（AOP应用框架） |
 | spring-instrument | 动态Class Loading模块，提供了类植入(instrumentation)支持和类加载器的实现|
 
-![Alt text](./images/fullAspectj1.png)
+![Alt text](./images/fullAspectj001.png)
 
 #### 1.3 数据访问/集成(data)
 
