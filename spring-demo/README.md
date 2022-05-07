@@ -13,29 +13,31 @@ spring发展里程：1.spring-core+spring-data(MVC)-->2.spring boot(微服务)--
 [编译spring-framework](https://github.com/zlk-github/spring/blob/master/spring-demo/README-COMPLE.md#编译spring-framework)
 
 ### 2 spring-framework主要模块介绍
+    
+    核心模块（core）：spring-core、spring-beans、spring-context、spring-context-support、spring-context-indexer、spring-expression。(前3重要)
+    
+    切面模块(aop)：spring-aop、spring-aspects+spring-instrument(fullAspectj)。
+    
+    数据访问/集成(data)：spring-jdbc、spring-tx、spring-orm、spring-oxm、spring-jms。
+    
+    Web组件：spring-web、spring-webmvc、spring-websocket、spring-webflux。
+    
+    消息：spring-messaging
+    
+    测试组件：spring-test
 
-主要模块有：spring-core、spring-beans、spring-context、spring-aop、spring-aspects+spring-instrument(fullAspectj)
+[spring-framework主要模块介绍](https://github.com/zlk-github/spring/blob/master/spring-demo/README-MODULE.md#spring-framework主要模块介绍)
 
-#### 2.1 spring-core
+### 3
 
-    IOC&DI
-
-#### 2.2 spring-beans
-
-    Beanfactory
-
-#### 2.3 spring-context
-
-    ApplicationContext
-
-#### 2.4 spring-aop
-
-    JDK动态代理
-    CGLAB动态代理
-
-#### 2.5 spring-aspects+spring-instrument(fullAspectj)
 
 
 ### 参考
 
-    官网 https://jmeter.apache.org/usermanual/
+    官网 https://spring.io/projects/spring-framework
+ 
+    源码项目地址：https://github.com/spring-projects/spring-framework
+
+    源码编译参考：https://github.com/spring-projects/spring-framework/wiki/Build-from-Source
+
+    模块介绍（中文文档）：https://lfvepclr.gitbooks.io/spring-framework-5-doc-cn/content/2/2-2.html

@@ -95,4 +95,8 @@ allprojects {
 
 ### 参考
 
-    官网 https://jmeter.apache.org/usermanual/
+    官网 https://spring.io/projects/spring-framework
+ 
+    源码项目地址：https://github.com/spring-projects/spring-framework
+
+    源码编译参考：https://github.com/spring-projects/spring-framework/wiki/Build-from-Source
